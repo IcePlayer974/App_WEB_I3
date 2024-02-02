@@ -1,0 +1,260 @@
+@keyframes color-changes {
+    0%{ color: #008080; }
+    7%{ color: #00FF00; }
+    14%{ color: #FF0000; }
+    21%{ color: #7D00FF; }
+    29%{ color: #FFFF00; }
+    36%{ color: #FF69B4; }
+    43%{ color: #00FFFF; }
+    50%{ color: #FFA500; }
+    57%{ color: #39FF14; }
+    64%{ color: #40E0D0; }
+    71%{ color: #800080; }
+    79%{ color: #FF8C00; }
+    86%{ color: #FF00FF; }
+    93%{ color: #FFD700; }
+    100%{ color: #87CEEB; }
+}
+body{
+    background-color: #192655;
+    font-family: Arial, sans-serif;
+}
+
+.presentation {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://t3.ftcdn.net/jpg/06/60/10/30/240_F_660103087_Dt2YQ4HJ9OzzM49NJZy2Zhb8cQxcFIk2.jpg);
+    background-position: center;
+    background-size: auto;
+    filter: blur(1px);
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Dungeon-depths', display;
+}
+#btn_acceuil{
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #192655;
+    height: 36px;
+    line-height: 33px;
+    padding: 5px 5px;
+    font-size: 32px;
+    transition: 0.5s;
+    margin: 0 20px;
+    font-family: 'House On Mars', sans-serif;
+}
+nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #f43c80; /* couleur de fond */
+}
+
+#nombreAleatoire{
+    color: #ffffff;
+    margin: 0%;
+    text-align: right;
+    margin-bottom: 0%;
+}
+h1{
+    color: #ffffff;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    
+}
+.titrep1{
+    font-family: 'Manaspace', sans-serif;
+    font-size: 50px;
+}
+.titrep2{
+    font-family: 'Disengaged', sans-serif;
+    animation: color-changes 12s infinite;
+    font-size: 50px;
+}
+.titrep3{
+    font-family: 'Manaspace', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    width: auto;
+}
+.titrep4{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#liste{
+    padding-left: 20px;
+    margin: 2px;
+}
+.liste{
+    color: #ffffff;
+    display : inline-block;
+    border: 3px solid greenyellow;
+    text-align: justify;
+    position: absolute;
+    right: 25px;
+}
+#place{
+    color: #1a0dab;
+    position: absolute;
+    right: 25px;
+}
+.container {
+    display: flex; 
+    width: 800px; 
+}
+.block {
+    width: 250px;
+    height: 300px;
+    border: 3px solid red;
+    padding: 2px;
+    margin-right: 25px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    color: #F0ECE5;
+
+}
+.block:last-child{
+    margin-right: 0;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+#mail{
+    height:35px;
+    width:35px;
+    padding-right: 5px;
+}
+#mail:hover{
+    transform: scale(2);
+} 
+#telephone{
+    height:35px;
+    width:35px;
+    padding-right: 5px;
+}
+#telephone:hover{
+    transform: scale(2);
+}
+#twitter{
+    height:35px;
+    width:35px;
+    padding-right: 5px;
+}
+#twitter:hover{
+    transform: scale(2);
+}
+#insta{
+    height:35px;
+    width:35px;
+    padding-right: 5px;
+}
+#insta:hover{
+    transform: scale(2);
+}   
+footer{
+    text-align: center;
+    bottom: 5px;
+    left: 44.5%;
+    padding: 10px;
+    display:inline-block;
+    width: 99%;    
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input, select, textarea {
+    color: #FFFFFF;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #192655;
+    border: #fff;
+    border-style: groove;
+    resize: none;
+}
+
+#valider-btn {
+    display: none;
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resume {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;/
+  }
+  
+  #resume p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+.jours {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .jours label {
+    margin-right: 15px;
+  }
+
+table{
+    color: #000;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    background-color: #FFF;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: centre;
+    padding: 12px;
+}
+
+.choix_log {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+.btn-choix {
+    width: auto;
+    text-align: center;
+}
+
+canvas{
+    color: green;
+}
